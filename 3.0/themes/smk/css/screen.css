@@ -116,12 +116,30 @@ a:hover,
 }
 
 #g-dialog #g-action-status li {
-  width: 400px;
+  width: 434px;
   white-space: normal;
   padding-left: 32px;
 }
 
+/* Lists ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+ul.g-text li,
+.g-text ul li {
+  list-style-type: disc;
+}
+
+ol.g-text li,
+.g-text ol li {
+  list-style-type: decimal;
+}
+
+.g-text li,
+.g-text li {
+  margin-left: 1em;
+}
+
 /* Forms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 form {
   margin: 0;
 }
@@ -312,6 +330,7 @@ td {
 }
 
 /* Text ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .g-text-small {
   font-size: .8em;
 }
@@ -342,6 +361,7 @@ td {
  *********************************************************************/
 
 /* Dimension and scale ~~~~~~~~~~~~~~~~~~~ */
+
 .g-one-quarter {
   width: 25%;
 }
@@ -536,7 +556,8 @@ td {
   background-color: #fff;
 }
 
-/* Permissions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Permissions ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 #g-edit-permissions-form td {
   background-image: none;
 }
@@ -648,11 +669,11 @@ tr.g-error td.g-error,
 }
 
 tr.g-success {
-	background-image: none;
+  background-image: none;
 }
 
 tr.g-success td.g-success {
-	background-image: url('../images/ico-success.png');
+  background-image: url('../images/ico-success.png');
 }
 
 .g-warning,
@@ -837,6 +858,7 @@ form .g-error {
 /** *******************************************************************
  *  8) jQuery and jQuery UI
  *********************************************************************/
+
 /* Generic block container ~~~~~~~~~~~~~~~ */
 
 .g-block {
@@ -848,18 +870,19 @@ form .g-error {
 }
 
 /* Superfish menu overrides ~~~~~~~~~~~~~~ */
+
 .sf-menu ul {
-	width: 12em;
+  width: 12em;
 }
 
 ul.sf-menu li li:hover ul,
 ul.sf-menu li li.sfHover ul {
-	left:	12em;
+  left: 12em;
 }
 
 ul.sf-menu li li li:hover ul,
 ul.sf-menu li li li.sfHover ul {
-	left: 12em;
+  left: 12em;
 }
 
 .sf-menu li li,
@@ -936,7 +959,7 @@ button {
 .g-progress-bar {
   height: 1em;
   width: 100%;
-  margin-top: .5em;
+  margin: .5em 0;
   display: inline-block;
 }
 
@@ -1051,6 +1074,7 @@ div#g-action-status {
 }
 
 /* Autocomplete  ~~~~~~~~~~ */
+
 .ac_loading {
   background: white url('../images/loading-small.gif') right center no-repeat !important;
 }
